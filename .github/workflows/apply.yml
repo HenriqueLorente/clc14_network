@@ -25,9 +25,7 @@ jobs:
         with:
           directory: .
           framework: terraform
-          quiet: true   # opcional (menos verboso)
-          soft_fail: false   # falha se encontrar vulnerabilidades
-          output_format: cli
+          quiet: true
 
   Apply:
     name: 'Apply Changes'
